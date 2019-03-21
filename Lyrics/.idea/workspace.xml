@@ -13,17 +13,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LyricsProfinity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="339">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_LyricsProfinity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LyricsWordCounter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_LyricsProfinity.py">
+        <entry file="file://$PROJECT_DIR$/tests/test_LyricsWordCounter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="404">
+              <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -51,7 +72,6 @@
       <list>
         <option value="$PROJECT_DIR$/tests/test_mock.py" />
         <option value="$PROJECT_DIR$/src/Lyrics.py" />
-        <option value="$PROJECT_DIR$/src/LyricsWordCounter.py" />
         <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/LyricsPackage/tests/__init__.py" />
         <option value="$PROJECT_DIR$/LyricsPackage/src/__init__.py" />
@@ -59,15 +79,18 @@
         <option value="$PROJECT_DIR$/LyricsPackage/tests/test_mock.py" />
         <option value="$PROJECT_DIR$/LyricsPackage/tests/test_does_song_contains_profinity.py" />
         <option value="$PROJECT_DIR$/tests/test_does_song_contains_profinity.py" />
-        <option value="$PROJECT_DIR$/src/LyricsProfinity.py" />
         <option value="$PROJECT_DIR$/tests/test_LyricsProfinity.py" />
+        <option value="$PROJECT_DIR$/src/LyricsWordCounter.py" />
+        <option value="$PROJECT_DIR$/src/LyricsProfinity.py" />
+        <option value="$PROJECT_DIR$/tests/test_LyricsWordCounter.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="990" />
-    <option name="height" value="867" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -116,8 +139,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_LyricsProfinity.MyTestCase.test_does_song_contain_profinity_true">
-    <configuration name="LyricsProfinity (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.LyricsWordCounter">
+    <configuration name="LyricsWordCounter" type="PythonConfigurationType" factoryName="Python">
       <module name="Lyrics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,41 +152,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/LyricsProfinity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/LyricsWordCounter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_LyricsProfinity.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Lyrics" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_LyricsProfinity.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_LyricsProfinity.MyTestCase.test_check_lyrics_for_profinity_false" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Lyrics" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_LyricsProfinity.MyTestCase.test_check_lyrics_for_profinity_false&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_LyricsProfinity.MyTestCase.test_does_song_contain_profinity_true" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -177,6 +172,34 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_LyricsProfinity.MyTestCase.test_does_song_contain_profinity_true&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_LyricsWordCounter.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Lyrics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_LyricsWordCounter.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_LyricsWordCounter.MyTestCase.test_check_numbers_of_repeats_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Lyrics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_LyricsWordCounter.MyTestCase.test_check_numbers_of_repeats_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -208,7 +231,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_LyricsProfinity.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_LyricsWordCounter.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Lyrics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,17 +241,16 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_LyricsProfinity.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_LyricsWordCounter.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_LyricsWordCounter.MyTestCase" />
+        <item itemvalue="Python tests.Unittests in test_LyricsWordCounter.py" />
+        <item itemvalue="Python tests.Unittests for test_LyricsWordCounter.MyTestCase.test_check_numbers_of_repeats_3" />
         <item itemvalue="Python tests.Unittests for test_LyricsProfinity.MyTestCase.test_does_song_contain_profinity_true" />
-        <item itemvalue="Python tests.Unittests for test_LyricsProfinity.MyTestCase.test_check_lyrics_for_profinity_false" />
-        <item itemvalue="Python tests.Unittests in test_LyricsProfinity.py" />
-        <item itemvalue="Python.LyricsProfinity (1)" />
-        <item itemvalue="Python tests.Unittests for test_LyricsProfinity.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -246,18 +268,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_does_song_contains_profinity_MyTestCase - 2019.03.21 at 11h 07m 25s.xml">
-      <configuration name="Unittests for test_does_song_contains_profinity.MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_LyricsProfinity_py - 2019.03.21 at 11h 09m 55s.xml">
-      <configuration name="Unittests in test_LyricsProfinity.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_LyricsProfinity_py - 2019.03.21 at 11h 10m 52s.xml">
-      <configuration name="Unittests in test_LyricsProfinity.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_LyricsProfinity_py - 2019.03.21 at 11h 11m 12s.xml">
-      <configuration name="Unittests in test_LyricsProfinity.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_LyricsProfinity_py - 2019.03.21 at 11h 11m 45s.xml">
       <configuration name="Unittests in test_LyricsProfinity.py" configurationId="tests" />
     </history-entry>
@@ -276,23 +286,35 @@
     <history-entry file="Unittests_for_test_LyricsProfinity_MyTestCase_test_does_song_contain_profinity_true - 2019.03.21 at 11h 36m 26s.xml">
       <configuration name="Unittests for test_LyricsProfinity.MyTestCase.test_does_song_contain_profinity_true" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_LyricsWordCounter_MyTestCase_test_check_numbers_of_repeats_3 - 2019.03.21 at 12h 07m 28s.xml">
+      <configuration name="Unittests for test_LyricsWordCounter.MyTestCase.test_check_numbers_of_repeats_3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_LyricsWordCounter_MyTestCase - 2019.03.21 at 12h 07m 32s.xml">
+      <configuration name="Unittests for test_LyricsWordCounter.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_LyricsWordCounter_py - 2019.03.21 at 12h 08m 48s.xml">
+      <configuration name="Unittests in test_LyricsWordCounter.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_LyricsWordCounter_MyTestCase - 2019.03.21 at 12h 10m 01s.xml">
+      <configuration name="Unittests for test_LyricsWordCounter.MyTestCase" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="990" height="867" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1880252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1121673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3038147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3001346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40326977" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32970026" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -300,12 +322,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1880252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1880252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3038147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3038147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40326977" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,13 +400,6 @@
     <entry file="file://$PROJECT_DIR$/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LyricsWordCounter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LyricsPackage/tests/test_mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -397,15 +412,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LyricsProfinity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="339">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_LyricsProfinity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LyricsWordCounter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_LyricsWordCounter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
