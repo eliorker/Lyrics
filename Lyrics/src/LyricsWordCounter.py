@@ -1,10 +1,5 @@
 from urllib.request import *
 
-# request = Request('https://api.lyrics.ovh/v1/Architects/Doomsday')
-
-# response_body = urlopen(request).read()
-# print(response_body)
-
 def get_song_artist_and_title():
     artist = input("Enter song artist: ")
     title = input("Enter song title: ")

@@ -1,18 +1,14 @@
 import unittest
-from src.LyricsProfinity import *
-from unittest.mock import patch, Mock
+from src.LyricsProfinity import check_lyrics_for_profinity
+import mock
 
 
 class MyTestCase(unittest.TestCase):
 
-    def test_check_lyrics_for_profinity(self):
-        lyrics_without_profinity = "No profinity in this lyrics"
-        lyrics_with_profinity = "gun OH NOES A PROFINITY!"
-        self.assertFalse(check_lyrics_for_profinity(lyrics_without_profinity))
-        self.assertTrue(check_lyrics_for_profinity(lyrics_with_profinity))
+    @mock.patch('get_lyrics', return_value='gun OH NOES A PROFINITY')
+    def test_check_lyrics_for_profinity(self, get_lyrics):
+        self.assertTrue(check_lyrics_for_profinity('no prof'))
 
 
-    def test_does_song_contains_profinity(self):
-        pass
-
-
+if __name__ == '__main__':
+    unittest.main()
